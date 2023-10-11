@@ -1,8 +1,7 @@
-#Logical Operators
+Logical Operators
 
-#1) Check whether the file exists and is executable using logical operators.
-
-#Hint:man test
+1) Check whether the file exists and is executable using logical operators.
+Hint:man test
 
 ```
 #!/bin/bash
