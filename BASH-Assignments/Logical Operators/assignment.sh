@@ -3,8 +3,10 @@
 #Hint:man test
 
 #!/bin/bash
-if [-f "$1"]; then
-echo "File '$1' exist"
+
+read -p "Enter file path" file
+if test -x "$file"; then
+echo "$file is executable"
 else
-echo "File '$1' doesn't exist"
+echo "$file is not executable"
 fi
