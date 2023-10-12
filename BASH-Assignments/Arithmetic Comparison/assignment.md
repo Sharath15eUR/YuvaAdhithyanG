@@ -4,11 +4,13 @@ Arithmetic Comparison
 
 ```
 #!/bin/bash
-read -p "Username" name
-if ["$name" -ne "$LOGNAME"]; then
-echo "$LOGNAME not equal to $name"
+
+read -p "Username: " name
+
+if [[ "$name" != "$LOGNAME" ]]; then
+echo "$name not equal to $LOGNAME"
 else
-echo "$LOGNAME equal to $name"
+echo "$name equal to $LOGNAME"
 fi
 ```
 
