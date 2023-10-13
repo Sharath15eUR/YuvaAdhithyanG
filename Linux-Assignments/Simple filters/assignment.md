@@ -30,7 +30,7 @@
 3.2) 
 1. Try to sort the file /etc/passwd in assending order.
 
-   ```
+   
   sort -n /etc/passwd
    ```
 
